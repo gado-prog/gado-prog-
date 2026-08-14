@@ -1,52 +1,72 @@
 # 👋 Gado — AI / Python Engineer Portfolio
 
-> **Building AI products, automation systems and computer-vision applications — from prototype to deployable service.**
+> **Working AI products, not README-only demos.**
 
-## 🔥 2026 AI Portfolio
+## 🚀 Live-capable portfolio
 
-| Project | Category | Core technologies |
+This repository contains runnable AI/ML prototypes, APIs, browser demos, automated tests, Docker infrastructure and deployment configuration.
+
+| Project | Focus | Status |
 |---|---|---|
-| 🧠 **Autonomous Research Agent** | Agentic AI | Python · FastAPI · tool calling · RAG |
-| 📚 **Multimodal Knowledge Copilot** | RAG / Vision | Python · embeddings · vector search · OCR |
-| 🏢 **AI Customer Operations Agent** | Automation | FastAPI · PostgreSQL · Redis · agents |
-| 🎥 **Football Intelligence Platform** | Computer Vision | YOLO · OpenCV · tracking |
-| 🎙️ **Voice AI Assistant** | Voice AI | ASR · TTS · FastAPI · streaming |
-| 📈 **ML Observability Platform** | MLOps | FastAPI · metrics · evaluation · CI |
-| ⚽ **Football AI Analyzer** | Computer Vision | Python · OpenCV · YOLO |
-| 🤖 **AI Document Assistant** | RAG | Python · FastAPI · embeddings |
-| 👁️ **Computer Vision Toolkit** | Vision | Python · OpenCV · NumPy |
-| 🚀 **ML API Starter** | Backend | Python · FastAPI · Pydantic |
+| 🧠 Autonomous Research Agent | Agent workflows / RAG | Runnable API foundation |
+| 📚 Multimodal Knowledge Copilot | RAG / OCR / retrieval | Runnable API foundation |
+| 🏢 AI Customer Operations Agent | Support automation | Runnable API |
+| 🎥 Football Intelligence Platform | CV / tracking | Runnable API foundation |
+| 🎙️ Voice AI Assistant | ASR / TTS architecture | Runnable API foundation |
+| 📈 ML Observability Platform | MLOps / metrics | Runnable API |
+| ⚽ Football AI Analyzer | YOLO / video CV | Runnable API foundation |
+| 🤖 AI Document Assistant | Document RAG | Runnable API foundation |
+| 👁️ Computer Vision Toolkit | OpenCV | Runnable utility + tests |
+| 🚀 ML API Starter | Model serving | Runnable API |
 
-## 🧠 What this portfolio demonstrates
+## ⚡ Run it
 
-- **Agentic AI:** planning, tool use, retrieval and structured outputs
-- **RAG:** document ingestion, chunking, retrieval and source-aware answers
-- **Multimodal AI:** text + images + OCR pipelines
-- **Computer Vision:** detection, tracking, video analytics
-- **Voice AI:** speech-to-text / text-to-speech application architecture
-- **Backend engineering:** async FastAPI APIs, validation and service boundaries
-- **Production thinking:** tests, observability, security, CI/CD and deployment
+### Python
 
-## 🏗️ Engineering principles
+```bash
+pip install -r requirements.txt
+python run_demo.py
+```
 
-**Reliable over flashy.** Projects are designed around clear APIs, modular services, evaluation, logging and reproducibility. They are portfolio implementations—not claims of production scale until actually deployed and measured.
+Open **http://127.0.0.1:8000** for the browser demo or **/docs** for Swagger API docs.
+
+### Docker + PostgreSQL + Redis
+
+```bash
+docker compose up --build
+```
+
+### Online deployment
+
+A production-style `Dockerfile` and `render.yaml` are included for cloud deployment. See [`docs/DEPLOY.md`](docs/DEPLOY.md).
+
+## 🧪 Quality
+
+- GitHub Actions CI
+- Automated pytest tests
+- Python compilation checks
+- Health endpoint
+- Typed FastAPI request/response validation
+- Environment-variable configuration
+- Dockerized runtime
+
+## 🧱 Architecture
+
+**API → AI/RAG/CV services → PostgreSQL/Redis → metrics/evaluation → CI/CD → deployment**
+
+The repository deliberately distinguishes **working local implementations** from integrations that require external model/API credentials. No fake production claims.
 
 ## 🛠️ Stack
 
 **Python · FastAPI · PyTorch · OpenCV · YOLO · NumPy · PostgreSQL · Redis · Docker · GitHub Actions · RAG · vector search · agent workflows**
 
-## 📊 Roadmap
+## 📈 Next engineering milestones
 
-- [x] Build AI and computer-vision portfolio foundations
-- [x] Add agentic / multimodal project architecture
-- [x] Add backend and MLOps concepts
-- [x] Add CI and shared dependencies
-- [ ] Add automated test suites across every project
-- [ ] Deploy public demos
-- [ ] Publish benchmarks and evaluation results
+- [ ] Connect external LLM provider through secure environment secrets
+- [ ] Add real PDF/DOCX ingestion + persistent vector store
+- [ ] Add real YOLO video inference + tracking benchmarks
+- [ ] Add PostgreSQL persistence and Redis queues to production services
+- [ ] Add full integration/evaluation suites
+- [ ] Publish public deployed demo and benchmark results
 
-## 📫 GitHub
-
-https://github.com/gado-prog
-
-> **Code. Build. Measure. Ship.** 🚀
+> **Code. Build. Test. Measure. Ship.** 🚀
