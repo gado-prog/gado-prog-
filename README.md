@@ -40,12 +40,13 @@
 - [x] Build AI and computer-vision portfolio foundations
 - [x] Add agentic / multimodal project architecture
 - [x] Add backend and MLOps concepts
+- [x] Add CI and shared dependencies
 - [ ] Add automated test suites across every project
 - [ ] Deploy public demos
 - [ ] Publish benchmarks and evaluation results
 
 ## 📫 GitHub
 
-urlgithub.com/gado-proghttps://github.com/gado-prog
+https://github.com/gado-prog
 
 > **Code. Build. Measure. Ship.** 🚀
