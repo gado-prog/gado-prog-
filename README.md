@@ -1,31 +1,52 @@
-# gado-prog-
-Python Developer | AI &amp; Computer VisionHi, I'm Gado 👋
+# 👋 Gado — AI / Python Engineer Portfolio
 
-Python Developer | AI & Computer Vision
+> **Building AI products, automation systems and computer-vision applications — from prototype to deployable service.**
 
-I develop applications and automation tools with Python.
-My main interests are Artificial Intelligence, Computer Vision, Web Development and Telegram Bots.
+## 🔥 2026 AI Portfolio
 
-🛠️ Skills
+| Project | Category | Core technologies |
+|---|---|---|
+| 🧠 **Autonomous Research Agent** | Agentic AI | Python · FastAPI · tool calling · RAG |
+| 📚 **Multimodal Knowledge Copilot** | RAG / Vision | Python · embeddings · vector search · OCR |
+| 🏢 **AI Customer Operations Agent** | Automation | FastAPI · PostgreSQL · Redis · agents |
+| 🎥 **Football Intelligence Platform** | Computer Vision | YOLO · OpenCV · tracking |
+| 🎙️ **Voice AI Assistant** | Voice AI | ASR · TTS · FastAPI · streaming |
+| 📈 **ML Observability Platform** | MLOps | FastAPI · metrics · evaluation · CI |
+| ⚽ **Football AI Analyzer** | Computer Vision | Python · OpenCV · YOLO |
+| 🤖 **AI Document Assistant** | RAG | Python · FastAPI · embeddings |
+| 👁️ **Computer Vision Toolkit** | Vision | Python · OpenCV · NumPy |
+| 🚀 **ML API Starter** | Backend | Python · FastAPI · Pydantic |
 
-- Python
-- YOLO / Computer Vision
-- OpenCV
-- Telegram Bot Development
-- REST API
-- Web Development
-- Git & GitHub
+## 🧠 What this portfolio demonstrates
 
-🚀 Featured Project
+- **Agentic AI:** planning, tool use, retrieval and structured outputs
+- **RAG:** document ingestion, chunking, retrieval and source-aware answers
+- **Multimodal AI:** text + images + OCR pipelines
+- **Computer Vision:** detection, tracking, video analytics
+- **Voice AI:** speech-to-text / text-to-speech application architecture
+- **Backend engineering:** async FastAPI APIs, validation and service boundaries
+- **Production thinking:** tests, observability, security, CI/CD and deployment
 
-Football Match Analysis with YOLO
+## 🏗️ Engineering principles
 
-A computer vision project for analyzing football match videos. The system detects players and the ball, tracks their movement and processes video data using Python and YOLO.
+**Reliable over flashy.** Projects are designed around clear APIs, modular services, evaluation, logging and reproducibility. They are portfolio implementations—not claims of production scale until actually deployed and measured.
 
-🎯 Currently
+## 🛠️ Stack
 
-I'm developing my skills in Python and AI and working on practical computer vision projects.
+**Python · FastAPI · PyTorch · OpenCV · YOLO · NumPy · PostgreSQL · Redis · Docker · GitHub Actions · RAG · vector search · agent workflows**
 
-📫 Contact
+## 📊 Roadmap
 
-GitHub: https://github.com/gado-prog
+- [x] Build AI and computer-vision portfolio foundations
+- [x] Add agentic / multimodal project architecture
+- [x] Add backend and MLOps concepts
+- [x] Add CI and shared dependencies
+- [ ] Add automated test suites across every project
+- [ ] Deploy public demos
+- [ ] Publish benchmarks and evaluation results
+
+## 📫 GitHub
+
+https://github.com/gado-prog
+
+> **Code. Build. Measure. Ship.** 🚀
