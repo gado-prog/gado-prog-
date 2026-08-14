@@ -14,5 +14,7 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Compile Python files
-        run: python -m compileall projects
+      - name: Compile Python
+        run: python -m compileall demo_server.py run_demo.py projects
+      - name: Run tests
+        run: pytest -q
