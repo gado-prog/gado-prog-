@@ -11,7 +11,7 @@ from fastapi import FastAPI
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 
-app = FastAPI(title="Gado AI Portfolio Demo", version="1.1.0")
+app = FastAPI(title="Gado AI Portfolio Demo", version="1.1.1")
 DOCUMENTS = {
     "ai": "Artificial intelligence systems can combine retrieval, tools, evaluation and structured outputs.",
     "vision": "Computer vision systems can detect objects, track movement and turn video into measurable events.",
@@ -22,7 +22,7 @@ class Ticket(BaseModel): message: str = Field(min_length=3, max_length=3000)
 class Prediction(BaseModel): features: list[float]
 class Research(BaseModel): question: str = Field(min_length=5, max_length=2000)
 def tokens(text: str) -> list[str]: return re.findall(r"[a-zA-Zа-яА-Я0-9]+", text.lower())
-@app.get("/", include_in_schema=False)
+@app.api_route("/", methods=["GET", "HEAD"], include_in_schema=False)
 def home(): return FileResponse(Path(__file__).parent / "static" / "index.html")
 @app.get("/health")
 def health(): return {"status":"ok","service":"gado-ai-portfolio-demo"}
