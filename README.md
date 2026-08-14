@@ -1,50 +1,51 @@
-# 👋 Hi, I'm Gado
+# 👋 Gado — AI / Python Engineer Portfolio
 
-### Python Developer • AI • Computer Vision • Automation
+> **Building AI products, automation systems and computer-vision applications — from prototype to deployable service.**
 
-I build practical Python projects focused on **Artificial Intelligence, Computer Vision, APIs, automation, and data processing**.
+## 🔥 2026 AI Portfolio
 
-## 🚀 Featured Projects
+| Project | Category | Core technologies |
+|---|---|---|
+| 🧠 **Autonomous Research Agent** | Agentic AI | Python · FastAPI · tool calling · RAG |
+| 📚 **Multimodal Knowledge Copilot** | RAG / Vision | Python · embeddings · vector search · OCR |
+| 🏢 **AI Customer Operations Agent** | Automation | FastAPI · PostgreSQL · Redis · agents |
+| 🎥 **Football Intelligence Platform** | Computer Vision | YOLO · OpenCV · tracking |
+| 🎙️ **Voice AI Assistant** | Voice AI | ASR · TTS · FastAPI · streaming |
+| 📈 **ML Observability Platform** | MLOps | FastAPI · metrics · evaluation · CI |
+| ⚽ **Football AI Analyzer** | Computer Vision | Python · OpenCV · YOLO |
+| 🤖 **AI Document Assistant** | RAG | Python · FastAPI · embeddings |
+| 👁️ **Computer Vision Toolkit** | Vision | Python · OpenCV · NumPy |
+| 🚀 **ML API Starter** | Backend | Python · FastAPI · Pydantic |
 
-### ⚽ Football AI Analyzer
-Computer vision system for football video: player/ball detection, tracking, annotated video and statistics foundations.
+## 🧠 What this portfolio demonstrates
 
-**Stack:** Python · OpenCV · YOLO
+- **Agentic AI:** planning, tool use, retrieval and structured outputs
+- **RAG:** document ingestion, chunking, retrieval and source-aware answers
+- **Multimodal AI:** text + images + OCR pipelines
+- **Computer Vision:** detection, tracking, video analytics
+- **Voice AI:** speech-to-text / text-to-speech application architecture
+- **Backend engineering:** async FastAPI APIs, validation and service boundaries
+- **Production thinking:** tests, observability, security, CI/CD and deployment
 
-### 🤖 AI Document Assistant
-A portfolio-ready RAG foundation for searching and answering questions from local documents.
+## 🏗️ Engineering principles
 
-**Stack:** Python · FastAPI · embeddings · RAG
+**Reliable over flashy.** Projects are designed around clear APIs, modular services, evaluation, logging and reproducibility. They are portfolio implementations—not claims of production scale until actually deployed and measured.
 
-### 👁️ Computer Vision Toolkit
-Reusable utilities for image/video processing, detection and experimentation.
+## 🛠️ Stack
 
-**Stack:** Python · OpenCV · NumPy
+**Python · FastAPI · PyTorch · OpenCV · YOLO · NumPy · PostgreSQL · Redis · Docker · GitHub Actions · RAG · vector search · agent workflows**
 
-### 🚀 ML API Starter
-Production-style FastAPI structure for serving machine-learning models through REST endpoints.
+## 📊 Roadmap
 
-**Stack:** Python · FastAPI · Pydantic
+- [x] Build AI and computer-vision portfolio foundations
+- [x] Add agentic / multimodal project architecture
+- [x] Add backend and MLOps concepts
+- [ ] Add automated test suites across every project
+- [ ] Deploy public demos
+- [ ] Publish benchmarks and evaluation results
 
-## 🧠 Skills
+## 📫 GitHub
 
-- **Python:** automation, APIs, data processing
-- **AI/ML:** YOLO, computer vision, model integration
-- **Computer Vision:** OpenCV, video processing, object tracking
-- **Backend:** FastAPI, REST APIs
-- **Automation:** Telegram bots, browser automation
-- **Tools:** Git, GitHub, Linux, VS Code
+urlgithub.com/gado-proghttps://github.com/gado-prog
 
-## 📈 Roadmap
-
-- [x] Build practical Python projects
-- [x] Build AI/Computer Vision portfolio projects
-- [ ] Add automated tests and CI
-- [ ] Deploy AI APIs
-- [ ] Add production-grade ML pipelines
-
-## 📫 Contact
-
-- GitHub: https://github.com/gado-prog
-
-> Building real projects, learning every day, and turning Python into useful products. 🚀
+> **Code. Build. Measure. Ship.** 🚀
